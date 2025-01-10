@@ -1,0 +1,57 @@
+.small-cards__container{
+  border: rgb(22, 22, 22) 0.1px solid;
+  height: 220px;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8OoFFDy7fzIrwAwohi2y-bwmUxKpzWY6uTw&s');
+  background-repeat: no-repeat;
+  background-size: 320px 220px;
+  border-radius: 30px;
+}
+
+.small-cards__container > h1{
+  background: none;
+  padding: 20px;
+  font-size: 30px;
+  color: white;
+  margin-bottom: 20px;
+  text-shadow: black 1px 0 10px ;
+}
+
+a{
+  text-decoration: none;
+}
+
+.small-cards__container > .button-location{
+  height: 60px;
+  width: 60px;
+  margin-left: 15px;
+  cursor: pointer;
+  background-color: rgb(219, 219, 219);
+  opacity: 0.9;
+  border-radius: 10000px;
+
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.646);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.8px);
+  -webkit-backdrop-filter: blur(7.8px);
+
+}
+
+.button-location:hover{
+  scale: 102%;
+  transition: 0.1s;
+}
+
+.button-location:active{
+  scale: 105%;
+}
+
+img{
+  background: none;
+  height: 37%;
+  width: 37%;
+  opacity: 0.8;
+}

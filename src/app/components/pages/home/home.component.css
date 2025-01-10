@@ -1,0 +1,22 @@
+.home__container{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin: 30px 60px;
+}
+
+.home_previews{
+  width: 650px;
+  height: 100%;
+}
+
+.small__cards{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.small__cards > app-small-cards {
+  margin-bottom: 10px;
+}
