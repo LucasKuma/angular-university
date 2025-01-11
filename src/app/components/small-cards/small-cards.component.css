@@ -15,8 +15,9 @@
   padding: 20px;
   font-size: 30px;
   color: white;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   text-shadow: black 1px 0 10px ;
+  line-height: 35px;
 }
 
 a{

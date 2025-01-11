@@ -1,0 +1,18 @@
+.right__container{
+  display: flex;
+  flex-direction: column;
+  width: 550px;
+}
+
+.right__container > .small-card__component{
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.right__container > .big-card__component{
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}

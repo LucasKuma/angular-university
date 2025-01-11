@@ -1,0 +1,17 @@
+.small-pic__container{
+  border-radius: 30px;
+}
+
+.small-pic__container > .box-img{
+  width: 265px;
+  height: 175px;
+  border-radius: 30px;
+}
+
+.small-pic__container > .box-img > img{
+  border: 1px solid black;
+  background: none;
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+}

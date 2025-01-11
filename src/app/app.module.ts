@@ -10,6 +10,9 @@ import { BigCardsComponent } from './components/big-cards/big-cards.component';
 import { HeaderSiteComponent } from './components/header-site/header-site.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { AvaliacaoComponent } from './components/avaliacao/avaliacao.component';
+import { LocationPageComponent } from './components/pages/location-page/location-page.component';
+import { BigPicCardComponent } from './components/location-page/big-pic-card/big-pic-card.component';
+import { SmallPicCardComponent } from './components/location-page/small-pic-card/small-pic-card.component'
 
 @NgModule({
   declarations: [
@@ -19,7 +22,10 @@ import { AvaliacaoComponent } from './components/avaliacao/avaliacao.component';
     ApresentBuscaComponent,
     BigCardsComponent,
     HeaderSiteComponent,
-    AvaliacaoComponent
+    AvaliacaoComponent,
+    LocationPageComponent,
+    BigPicCardComponent,
+    SmallPicCardComponent
   ],
   imports: [
     BrowserModule,
