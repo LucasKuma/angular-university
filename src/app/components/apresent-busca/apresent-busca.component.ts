@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-apresent-busca',
@@ -8,6 +8,11 @@ import { Component } from '@angular/core';
   styleUrl: './apresent-busca.component.css'
 })
 export class ApresentBuscaComponent {
-  title:string = "Locais para Conhecer"
+
+  @Input()
+  title:string = ""
+  @Input()
+  apresentacao:string = ""
+
   placeholder:string = "Encontre Novas Aventuras"
 }

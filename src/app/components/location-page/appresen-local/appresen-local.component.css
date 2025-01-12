@@ -1,0 +1,26 @@
+.appresen__container{
+  width: 450px;
+}
+
+.appresen__container > .evento {
+  border: 1px black solid;
+  width: 380px;
+  height: 150px;
+  border-radius: 30px;
+  padding: 10px 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.appresen__container > .evento > button {
+  border: 1px solid red;
+  margin-left: 60%;
+  width: 90px;
+  height: 40px;
+  background: none;
+  cursor: pointer;
+}
+
+span{
+  margin-right: 10px;
+}

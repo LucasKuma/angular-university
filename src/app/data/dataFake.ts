@@ -1,7 +1,7 @@
 export const dataFake = [
   {
     "id":1,
-    "bigCardCover": "/imgs/ImagePlaceholder.webp",
+    "bigCardCover": "",
     "smallCardCover": ""
   },
   {

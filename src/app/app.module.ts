@@ -12,7 +12,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { AvaliacaoComponent } from './components/avaliacao/avaliacao.component';
 import { LocationPageComponent } from './components/pages/location-page/location-page.component';
 import { BigPicCardComponent } from './components/location-page/big-pic-card/big-pic-card.component';
-import { SmallPicCardComponent } from './components/location-page/small-pic-card/small-pic-card.component'
+import { SmallPicCardComponent } from './components/location-page/small-pic-card/small-pic-card.component';
+import { AppresenLocalComponent } from './components/location-page/appresen-local/appresen-local.component'
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { SmallPicCardComponent } from './components/location-page/small-pic-card
     AvaliacaoComponent,
     LocationPageComponent,
     BigPicCardComponent,
-    SmallPicCardComponent
+    SmallPicCardComponent,
+    AppresenLocalComponent
   ],
   imports: [
     BrowserModule,

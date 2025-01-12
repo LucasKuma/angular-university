@@ -1,6 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
-import { dataFake } from '../../../data/dataFake'
+//import { ActivatedRoute } from '@angular/router';
+//import { dataFake } from '../../../data/dataFake'
 
 @Component({
   selector: 'app-big-pic-card',
@@ -9,13 +9,12 @@ import { dataFake } from '../../../data/dataFake'
   templateUrl: './big-pic-card.component.html',
   styleUrl: './big-pic-card.component.css'
 })
-export class BigPicCardComponent implements OnInit{
+export class BigPicCardComponent {
   //bigCard:string = '/imgs/ImagePlaceholder.webp';
   @Input()
-  bigCardCover: string = "";
-  @Input()
-  private id: string | null = "";
+  bigCardCover:string = "";
 
+  /*
   constructor(private route: ActivatedRoute) {}
 
   ngOnInit(): void {
@@ -27,5 +26,5 @@ export class BigPicCardComponent implements OnInit{
     const result = dataFake.filter(data => data.id)[0]
     this.bigCardCover = result.bigCardCover;
   }
-
+*/
 }
